@@ -1,0 +1,17 @@
+.header {
+    background-color: #333333;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin: 0.8rem;
+}

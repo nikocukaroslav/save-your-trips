@@ -1,0 +1,19 @@
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.4rem;
+    background-color: #22b8cf;
+}
+
+.mainPages {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.nav a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #242424;
+}
+
