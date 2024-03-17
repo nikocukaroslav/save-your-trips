@@ -1,5 +1,5 @@
 import styles from "./TripAlbum.module.css";
-import PhotoList from "./PhotoList.jsx";
+import TripGallery from "./TripGallery.jsx";
 import { useTrips } from "../Contexts/TripsContext.jsx";
 
 function TripAlbum() {
@@ -7,10 +7,9 @@ function TripAlbum() {
   return (
     <section className={styles.container}>
       <header className={styles.header}>
-        {" "}
         You in {place ? place : "no place selected"}
       </header>
-      <PhotoList />
+      <TripGallery />
     </section>
   );
 }

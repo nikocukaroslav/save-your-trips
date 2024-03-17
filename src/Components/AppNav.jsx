@@ -17,7 +17,7 @@ function AppNav() {
           </li>
         </div>
         <li>
-          <NavLink to="login">Log in</NavLink>
+          <NavLink to="/login">Log in</NavLink>
         </li>
       </ul>
     </nav>
